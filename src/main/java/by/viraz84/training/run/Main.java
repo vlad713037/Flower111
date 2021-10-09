@@ -20,7 +20,6 @@ public class Main {
         bouquet.addFlower(gladiolus);
         bouquet.addFlower(tulip);
 
-
         Bouquet.printBouquet(bouquet.getFlowers());
         System.out.println("Price of this bouquet " + bouquet.getBouquetPrice() + " $");
         Bouquet.findByLength(bouquet.getFlowers(),60,300);
