@@ -11,10 +11,8 @@ import java.util.List;
 public class Bouquet implements InBouquet {
     private static final Logger LOGGER = LoggerFactory.getLogger(Bouquet.class);
 
-
     private Flower[] flowers;
     private int position;
-
 
     public Bouquet(Flower[] flowers){
         LOGGER.trace ("Creating object", flowers);
